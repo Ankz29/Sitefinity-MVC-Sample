@@ -1,0 +1,21 @@
+﻿@model  SitefinityWebApp.Mvc.Models.BlogList
+
+@*@foreach(var item in Model)
+{
+
+}*@
+<h1> welcome </h1>
+@*<div>
+    //@Html.DropDownList("Categories", "select a country")
+</div>
+@foreach(var item in Model)
+{
+        <h3>Title</h3>
+        @item.Title
+
+    <h3>Description</h3>
+    @item.Description
+
+    <h3>Image</h3>
+    <img src="@item.Image" />
+}*@
